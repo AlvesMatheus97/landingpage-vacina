@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vacina Fácil</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about-us.html">Quem somos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Entrar</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="filhotes">
+                <h2>Inscreva-se na Vacina Fácil</h2>
+                <p>Olá! Somos a Vacina Fácil e estamos aqui para auxilia-lo no controle de vacinação</p>
+                <p>Nesta página é possível monitorar e agendar suas vacinas, pesquisar locais de vacinação e solicitações de cartões do SUS.</p>
+                <p>Regriste-se agora e monitore seu cartão de vacina!!</p>
+                <form action="cadstro.php" method="post" autocomplete="on">
+                    <input type="text" name="nome" id="inome" placeholder="Nome" required minlength="15" maxlength="50">
+                    <input type="email" name="mail" id="imail" placeholder="E-mail" required>
+                    <input type="text" name="card-sus" id="icard" placeholder="N° do cartão SUS" required minlength="15" maxlength="15">
+                    <input type="submit" value="Cadastrar">
+                </form>
+                <p>Ainda não possui cartão do SUS?</p>
+                <a href="#">Preencha aqui o formulário de solicitação</a>
+            </div>
+            <div class="filhotes">
+                <img src="images/vaccine.png" alt="imagem vacina">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <h3>Nossas redes sociais:</h3>
+        <ul>
+            <li><a href="#"><img src="images/logo-facebook.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/logo-twitter.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/logo-instagram.jpg" alt=""></a></li>
+            
+        </ul>
+
+    </footer>
+</body>
+</html>

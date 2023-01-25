@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #65C1FC;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.336);
+
+}
+
+h1 {
+    padding: 10px;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+header a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: #65C1FC;
+    border-radius: 10px;
+}
+
+main, footer {
+    margin: 0 auto;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+main h2 {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+main p {
+    text-indent: 20px;
+    margin-bottom: 9px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filhotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    padding: 20px;
+    
+}
+
+.filhotes h2 {
+    margin-bottom: 15px;
+}
+
+.filhotes p {
+    width: 300px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.filhotes a {
+    color: black;
+    text-decoration: none;
+}
+
+.filhotes a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.filhotes img {
+    width: 90%;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    padding: 7px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+form [type="submit"] {
+    height: 40px;
+    width: 150px;
+    background-color: #5A88E0;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+footer {
+    padding: 15px;
+    border-top: 2px solid rgba(0, 0, 0, 0.336);
+}
+
+footer h3 {
+    padding: 15px;
+
+}
+
+footer > ul > li {
+    display: inline-block;
+}
+
+ul > li > a > img {
+    width: 40px;
+    padding: 10px;
+    border-radius: 50px;
+}
